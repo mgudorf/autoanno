@@ -22,7 +22,7 @@ def parse_requirements_file(filename):
 install_requires = parse_requirements_file("requirements/default.txt")
 extras_require = {
     dep: parse_requirements_file("requirements/" + dep + ".txt")
-    for dep in ["developer", "docs", "extra", "full", "test"]
+    for dep in ["docs", "test"]
 }
 
 setup(
@@ -50,26 +50,6 @@ setup(
         "Programming Language :: Python :: 3.9",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: Microsoft :: Windows :: Windows 10",
-    ],
-    keywords=[
-        "pde",
-        "partial differential equation",
-        "numeric",
-        "numerical simulation",
-        "solver",
-        "framework",
-        "periodic orbit",
-    ],
-    py_modules=[
-        "autoanno.persistent_homology",
-        "autoanno.machine_learning",
-        "autoanno.clipping",
-        "autoanno.continuation",
-        "autoanno.core",
-        "autoanno.gluing",
-        "autoanno.io",
-        "autoanno.optimize",
-        "autoanno.shadowing",
     ],
     packages=find_packages(include=["autoanno", "autoanno.*"]),
     python_requires=">=3.7",

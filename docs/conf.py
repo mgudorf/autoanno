@@ -53,7 +53,6 @@ extensions = [
     "sphinxcontrib.log_cabinet",
     "sphinx_issues",
     "sphinx_rtd_theme",
-    # "sphinx.ext.autosectionlabel",
     "nb2plots",
     "texext",
 ]

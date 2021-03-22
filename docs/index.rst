@@ -2,7 +2,7 @@
 
 AutoAnno |version|
 
-Investigating Annotation vis AutoML and TDA
+Investigating Annotation via AutoML and TDA
 ===========================================
 
 Create a MVP as fast as possible. Goal is to investigate whether TDA can be used to create an unsupervised algorithm
