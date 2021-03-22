@@ -6,7 +6,7 @@ copyright = '2021, Matthew Gudorf'
 author = 'Matthew Gudorf'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1dev1'
+release = '0.0.1dev2'
 
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
