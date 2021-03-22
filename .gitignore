@@ -1,9 +1,52 @@
+
+# Personal stuff
+*.pdf
+*.eps
+*.png
+*.h5
+*.sql
+*.zip
+*.gz
+*.ini
+*.jpg
+*.txt
+
+private/
+data/
+scripts/
+notebooks/
+publications/latex/*
+
+# Pycharm
+.idea/*
+
+# LaTeX
+*.aux
+*.bcf
+*.log
+*.run.xml
+*.synctex
+*.toc
+*.snm
+*.out
+*.nav
+*.bst
+*.mine
+*.xml
+*.iml
+*.sty
+*.un~
+pdf/*
+pdf/**
+**/local
+*/local
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+# C extensionsgi
 *.so
 
 # Distribution / packaging
