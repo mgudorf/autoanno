@@ -9,7 +9,6 @@
 *.gz
 *.ini
 *.jpg
-*.txt
 
 private/
 data/

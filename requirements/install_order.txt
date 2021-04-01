@@ -1,0 +1,7 @@
+
+python -m pip install wheel
+python -m pip install torch
+python -m pip install gensim
+python -m pip install ipython jupyterlab ipykernel
+python -m pip install matplotlib pyqt5
+python -m pip install pandas
